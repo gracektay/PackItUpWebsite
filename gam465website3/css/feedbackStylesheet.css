@@ -1,0 +1,98 @@
+
+
+section  .centered,
+.arrow-up{
+  
+  position: relative;
+  top: 1px;
+	width: 0; 
+	height: 0;
+	
+}
+
+form#contact, form#email {
+  padding: 20px;
+}
+
+.form-control#name {
+  box-shadow: none;
+  border-radius: 0;
+  outline: 1 px;
+  margin-bottom:20px;
+
+}
+
+
+
+
+* {
+  outline:none;
+	border:none;
+	margin:0px;
+	padding:0px;
+}
+.notepadButton {
+width: 100px;
+float: right;
+margin-top:20px;
+font-size:16px;
+}
+#paper {
+
+	color:#FFF;
+	font-size:20px;
+}
+#margin {
+	margin-top:5px;
+	margin-bottom:40px;
+	margin-left:20px;
+	margin-right:20px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none; 
+}
+
+
+#text {
+		margin-top:0px;
+
+	rows:"8";
+	word-wrap: break-word; 
+	resize: none; 
+	height: 320px; 
+	width:750px;
+	background-color:#FFF;
+	color:#222;
+	font-weight:normal;
+	font-size:24px;
+	line-height:40px;
+	padding-left:100px;
+	padding-right:100px;
+	padding-top:45px;
+	padding-bottom:34px;
+	background-image:url(http://static.tumblr.com/maopbtg/E9Bmgtoht/lines.png), url(http://static.tumblr.com/maopbtg/nBUmgtogx/paper.png);
+	-webkit-border-radius:12px;
+	border-radius:12px;
+	-webkit-box-shadow: 0px 2px 14px #000;
+	box-shadow: 0px 2px 14px #000;
+	border-top:1px solid #FFF;
+	border-bottom:1px solid #FFF;
+}
+#title {
+	background-color:transparent;
+	border-bottom:3px solid #FFF;
+	color:#FFF;
+	font-size:20px;
+	height:28px;
+	font-weight:bold;
+	width:220px;
+}
+
+#wrapper {
+	overflow:scroll;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}

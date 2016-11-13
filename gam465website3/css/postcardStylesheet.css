@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/* CSS Document */
+
+		.grayfont {
+			color: #5F5F5F !important;
+		}
+		.wrapper {
+			width: 960px;
+			margin: 50px auto;
+			overflow: hidden;
+			color:#000000;
+
+		}
+		
+		h1,h2 {
+			font-weight: bolder;
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+			font-size:20px;
+		}
+		
+		h1 {
+			font-size:20px;
+			font-size: 22px;
+			text-align: center;
+		}
+		
+		h2 {
+	margin: 0 0 15px 0;
+	font-size: 14px;
+	text-align: left;
+	font-weight: bolder;
+
+		}
+		
+		.postcard {
+			float: left;
+			width: 618px;
+			height: 370px;
+			border: 1px solid #ccc;
+			margin: 20px 0px;
+
+		}
+			.inner-postcard-left {
+				float: left;
+				width: 268px;
+				border-right: 1px solid #ccc;
+				margin: 40px 0 30px 30px;
+			}
+			
+			.inner-postcard-right {
+				float: right;
+				width: 269px;
+				margin: 40px 30px 30px 0;
+			}
+			
+		iframe {
+			float: right;
+			width: 298px;
+			height: 370px;
+			border: 1px solid #ccc;
+			margin: 20px 10px;
+		}
+			
+		postcard.form{
+		margin-top: 20px;
+		margin-bottom:20px;
+		color: #000000;
+		}
+	
+		
+	input.name[type=text], textarea {
+			width: 227px;
+			padding: 5px;			
+			border: 1px solid #ccc;
+			font-size: 12px;
+		}
+		
+	.pcName {
+		margin-bottom:10px;	
+		}
+	
+		input#name[type=button] {
+				padding: 5px 8px;			
+				border: 1px solid #ccc;
+				color: #333;
+				background-color: #fff;
+				font-size: 12px;
+				letter-spacing: 0.05em;
+				cursor: pointer;
+				text-transform: uppercase; 
+			}
+			  input[type=button]:hover {
+  			  background-color: #eaeaea;
+			  }
+	
+	
+			
+		.thumbnail {
+			float: right;
+			width: 70px;
+			height: 80px;
+			border: 1px solid #ccc;
+		}
+			.thumbnail > p {
+				font-size: 10px;
+				line-height: 1.6;
+				text-align: center;
+				text-transform: uppercase;
+				letter-spacing: 0.3em;
+			}
+		
+		.contactinfo {
+			float: right;
+			width: 100%;
+			margin-top: 10px;
+		}
+			.contactinfo p {
+				padding: 2px;
+				font-size: 12px;
+				line-height: 1.5;
+			}
+			
+    .thanks {
+    	padding-bottom: 0;
+    	font-family: 'Lobster';
+    	font-size: 18px !important;
+    }
+    	
+    img {
+	max-width: 100%;
+	/* [disabled]display: inline; */
+    }
+    
+    .address {
+    	width: 558px;
+    	margin-left: 30px;
+    	font-size: 10px;
+    	text-align: center;
+    	text-transform: uppercase;
+    	letter-spacing: 0.5em;
+    	clear: both;
+		color:#2D6AA7
+    }
+    
+    
+  
